@@ -2,7 +2,7 @@
     display: block;
 }
 
-.row {
+#reset, #resize, .row {
     margin: 0 auto;
     max-width: 500px;
 }

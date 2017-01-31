@@ -1,3 +1,4 @@
+//default size is 16
 var size = 16;
 
 function createGrid(size) {
@@ -16,10 +17,29 @@ function createGrid(size) {
     }
 }
 
+function deleteGrid() {
+    $("#grid").empty();
+}
+
 function resetGrid() {
     for (var i = 0; i < $(".square").length; i++) {
         $(".square").eq(i).css("background-color", "#fff")
     }
 }
 
-createGrid(size);
+$(document).ready(function() {
+    createGrid(size);
+});
+
+$( "#reset" ).click(function() {
+    resetGrid()
+});
+
+$( "#resize" ).click(function() {
+    var newSize = prompt("Enter the number of squares per row: ");
+    if (!isNaN(parseInt(newSize))) {
+        size = newSize;
+        deleteGrid();
+        createGrid(size);
+    }
+});
