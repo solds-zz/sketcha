@@ -23,7 +23,7 @@ function deleteGrid() {
 
 function resetGrid() {
     for (var i = 0; i < $(".square").length; i++) {
-        $(".square").eq(i).css("background-color", "#fff")
+        $(".square").eq(i).css("background-color", "#000")
     }
 }
 
