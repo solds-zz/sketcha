@@ -1,0 +1,17 @@
+#grid {
+    display: block;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.square {
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width: 0px;
+    height: 0px;
+    background-color: #fff;
+}
