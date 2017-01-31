@@ -1,4 +1,4 @@
-//default size is 16
+//default grid size is 16 x 16
 var size = 16;
 
 function createGrid(size) {
