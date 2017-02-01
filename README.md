@@ -1,1 +1,1 @@
-A JavaScript and jQuery project
+A project to test my abilities using JavaScript and jQuery.
