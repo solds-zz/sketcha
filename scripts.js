@@ -14,8 +14,8 @@ function createGrid(size) {
     $(".row").css("max-width", width * size + "px");
     $(".buttons").css("max-width", width * size + "px");
     
-    // Color the square when the mouse is pressed down
-    $(".square").mousedown(function() {
+    // Darken the square when the mouse enters it
+    $(".square").mouseenter(function() {
         var color = $(this).css("background-color");
         if (color === "rgb(255, 255, 255)") {
             $(this).css("background-color", "rgb(128, 128, 128)");
