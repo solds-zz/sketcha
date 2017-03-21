@@ -1,1 +1,1 @@
-A project to test my abilities using JavaScript and jQuery.
+A fun and simple project to test my abilities using JavaScript and jQuery.
